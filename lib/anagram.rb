@@ -9,9 +9,9 @@ class Anagram
   end
 
   def match(array)
-    binding.pry
-    array.keep_if {|wor| word.split('').sort == wor.split('').sort }
 
+    array.keep_if {|wor| word.split('').sort == wor.split('').sort }
+    binding.pry
   end
 
 end
