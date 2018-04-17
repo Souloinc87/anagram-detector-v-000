@@ -11,7 +11,7 @@ class Anagram
   def match(array)
     binding.pry
     array.keep_if {|wor| binding.pry}
-    
+
   end
 
 end
