@@ -10,13 +10,13 @@ class Anagram
 
   def match(array)
     binding.pry
-    array.map do |same|
+    array.keep_if do |same|
       same.match(@word)
     end.compact
   end
 
   def detect(array)
-  
+
 
   end
 
