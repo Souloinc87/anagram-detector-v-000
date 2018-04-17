@@ -1,10 +1,10 @@
 # Your code goes here!
-class Anagram 
+class Anagram
   attr_accessor :words
 
-  def initialize(word)
-    @word = word 
-  end 
+  def initialize(words)
+    @word = words 
+  end
 
 
-end 
+end
