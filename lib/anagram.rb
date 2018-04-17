@@ -16,7 +16,7 @@ class Anagram
 
   def detect(array)
   binding.pry
-    
+
   end
 
 
