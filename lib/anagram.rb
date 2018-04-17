@@ -12,7 +12,6 @@ class Anagram
     array.each do |same|
       same.match(@word)
     end 
-    binding.pry
   end
 
 end
