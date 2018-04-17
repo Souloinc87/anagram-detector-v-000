@@ -9,6 +9,7 @@ class Anagram
   end
 
   def word_match
+    @words.match {|same| same.any?}
     binding.pry
   end
 
