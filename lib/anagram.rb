@@ -9,6 +9,7 @@ class Anagram
   end
 
   def match(array)
+    binding.pry 
     array.map do |same|
       same.match(@word)
     end.compact
