@@ -11,6 +11,7 @@ class Anagram
   def match(array)
     binding.pry
     array.keep_if do |same|
+      binding.pry 
       same.match(@word)
     end.compact
   end
