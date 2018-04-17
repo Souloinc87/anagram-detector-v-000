@@ -14,5 +14,9 @@ class Anagram
     end.compact
   end
 
+  def detect(array)
+    array.sort_by{|det| det}
+  end
+
 
 end
