@@ -16,7 +16,7 @@ class Anagram
 
   def detect(array)
     binding.pry
-    array.sort_by{|det| det.sort!}
+    
   end
 
 
