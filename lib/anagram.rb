@@ -8,7 +8,7 @@ class Anagram
 
   def word_match
     @word.match{|same| same.any?}
-
+  end 
 
 
 end
