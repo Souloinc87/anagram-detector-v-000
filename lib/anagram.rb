@@ -1,4 +1,6 @@
 # Your code goes here!
+require 'pry' 
+
 class Anagram
   attr_accessor :word
 
@@ -7,8 +9,8 @@ class Anagram
   end
 
   def word_match
-    @word.match{|same| same.any?}
-  end 
+    binding.pry
+  end
 
 
 end
