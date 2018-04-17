@@ -15,10 +15,5 @@ class Anagram
     end.compact
   end
 
-  def detect(array)
-
-
-  end
-
 
 end
