@@ -9,7 +9,7 @@ class Anagram
   end
 
   def word_match
-    @words.match {|same| binding.pry same.split(" ") == same.split(" ") }
+    @words.match {|same| binding.pry same.split(" ") }
 
   end
 
