@@ -13,6 +13,6 @@ class Anagram
       same.match(@word)
     end.compact
   end
-  
+
 
 end
