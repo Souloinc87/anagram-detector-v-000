@@ -15,7 +15,7 @@ class Anagram
   end
 
   def detect(array)
-    array.sort_by{|det| det}
+    array.sort_by{|det| det.sort!}
   end
 
 
