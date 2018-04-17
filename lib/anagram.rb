@@ -12,7 +12,7 @@ class Anagram
     #binding.pry
     array.map do |same|
       same.match(@word)
-    end
+    end.compact
   end
 
 end
