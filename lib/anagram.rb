@@ -9,8 +9,8 @@ class Anagram
   end
 
   def match(array)
-    binding.pry
-    array.keep_if {|wor| binding.pry}
+    #binding.pry
+    array.keep_if {|wor| array.split('').sort == wor.split('').sort }
 
   end
 
